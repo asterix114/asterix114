@@ -31,7 +31,7 @@ query($user: String!) {
 
 
 cat > assets/stats.svg << EOF
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="195" viewBox="0 0 560 195">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="195" viewBox="0 0 400 195">
   <rect width="400" height="195" rx="14" fill="#070708"/>
   
   <g font-family="Segoe UI, system-ui, sans-serif">
