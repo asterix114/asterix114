@@ -31,21 +31,21 @@ query($user: String!) {
 
 
 cat > assets/stats.svg << EOF
-<svg xmlns="http://www.w3.org/2000/svg" width="500" height="195" viewBox="0 0 560 195">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="195" viewBox="0 0 560 195">
   <rect width="400" height="195" rx="14" fill="#070708"/>
   
   <g font-family="Segoe UI, system-ui, sans-serif">
-    <text x="24"  y="60"  font-size="17" fill="#8b949e">Stars Earned</text>
-    <text x="24"  y="88" font-size="28" font-weight="600" fill="#ffffff">${TOTAL_STARS:-0}</text>
+    <text x="55"  y="60"  font-size="17" fill="#8b949e">Stars Earned</text>
+    <text x="5"  y="88" font-size="28" font-weight="600" fill="#ffffff">${TOTAL_STARS:-0}</text>
     
-    <text x="24"  y="122" font-size="17" fill="#8b949e">Commits ($YEAR)</text>
-    <text x="24"  y="150" font-size="28" font-weight="600" fill="#ffffff">${COMMITS_THIS_YEAR:-0}</text>
+    <text x="55"  y="122" font-size="17" fill="#8b949e">Commits ($YEAR)</text>
+    <text x="55"  y="150" font-size="28" font-weight="600" fill="#ffffff">${COMMITS_THIS_YEAR:-0}</text>
     
-    <text x="280" y="60"  font-size="17" fill="#8b949e">Pull Requests</text>
-    <text x="280" y="88" font-size="28" font-weight="600" fill="#ffffff">${PRS_CREATED:-0}</text>
+    <text x="220" y="60"  font-size="17" fill="#8b949e">Pull Requests</text>
+    <text x="220" y="88" font-size="28" font-weight="600" fill="#ffffff">${PRS_CREATED:-0}</text>
     
-    <text x="280" y="122" font-size="17" fill="#8b949e">Issues Opened</text>
-    <text x="280" y="150" font-size="28" font-weight="600" fill="#ffffff">${ISSUES_CREATED:-0}</text>
+    <text x="220" y="122" font-size="17" fill="#8b949e">Issues Opened</text>
+    <text x="220" y="150" font-size="28" font-weight="600" fill="#ffffff">${ISSUES_CREATED:-0}</text>
   </g>
 </svg>
 EOF
