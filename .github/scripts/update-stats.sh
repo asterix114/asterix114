@@ -32,7 +32,7 @@ query($user: String!) {
 
 cat > assets/stats.svg << EOF
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="195" viewBox="0 0 560 195">
-  <rect width="500" height="195" rx="14" fill="#070708"/>
+  <rect width="400" height="195" rx="14" fill="#070708"/>
   
   <g font-family="Segoe UI, system-ui, sans-serif">
     <text x="24"  y="60"  font-size="17" fill="#8b949e">Stars Earned</text>
