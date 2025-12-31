@@ -30,9 +30,6 @@ query($user: String!) {
 }' -f user="$USERNAME" --jq '.data.user.issues.totalCount')
 
 
-CIRCUM=251.2
-OFFSET=$(awk "BEGIN {printf \"%.2f\", $CIRCUM - ($CIRCUM * $PERCENT / 100)}")
-
 cat > assets/stats.svg << EOF
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="195" viewBox="0 0 560 195">
   <rect width="500" height="195" rx="14" fill="#070708"/>
