@@ -36,7 +36,7 @@ cat > assets/stats.svg << EOF
   
   <g font-family="Segoe UI, system-ui, sans-serif">
     <text x="55"  y="60"  font-size="17" fill="#8b949e">Stars Earned</text>
-    <text x="5"  y="88" font-size="28" font-weight="600" fill="#ffffff">${TOTAL_STARS:-0}</text>
+    <text x="55"  y="88" font-size="28" font-weight="600" fill="#ffffff">${TOTAL_STARS:-0}</text>
     
     <text x="55"  y="122" font-size="17" fill="#8b949e">Commits ($YEAR)</text>
     <text x="55"  y="150" font-size="28" font-weight="600" fill="#ffffff">${COMMITS_THIS_YEAR:-0}</text>
